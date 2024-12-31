@@ -1,0 +1,27 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+  border-bottom: 1px solid white;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-bottom: 2px !important;
+  transition: 0.8s;
+}
+
+.nav-link:hover{
+  border-bottom: 1px solid white;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-bottom: 2px !important;
+}
+
+.nav-link:active{
+  border-bottom: 1px solid white;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-bottom: 2px !important;
+}
