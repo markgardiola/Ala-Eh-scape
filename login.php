@@ -14,26 +14,28 @@
 
 <body>
 
-<section>
-    <div class="heading">
-      <h1 style="padding-top: 50px;">Welcome to Ala-Eh-scape</h1>
-      <p style="margin-bottom: 0px; padding-bottom: 0px;">discover the beauty of Batangas</p>
+  <div class="container">
+    <div class="form1">
+      <div class="bg-image">
+        <h1>Welcome!</h1>
+        <p>Ala-Eh-scape</p>
+      </div>
     </div>
-  </section>
+  </div>
 
   <div class="container">
     <div class="form">
-      <form action="login-register.php" method="post">
-        <h1>Login Form</h1>
+      <form action="login-register.php" method="post" autocomplete="off">
+        <h1>Login</h1>
         <input type="email" name="email" placeholder="enter your email" required>
         <input type="password" name="password" id="password" placeholder="enter your password" required>
-        <input type="submit" name="signIn" value="sign in">
-        <p>don't have an account yet? <a href="registration.php">sign up</a></p>
+        <input type="submit" name="signIn" value="Login">
+        <p>don't have an account yet?</p>
+        <a href="registration.php">sign up</a>
       </form>
     </div>
   </div>
 
-  <script src="js/login-script.js"></script>
 </body>
 
 </html>

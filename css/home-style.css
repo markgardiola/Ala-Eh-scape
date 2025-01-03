@@ -1,27 +1,103 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Rubik+Vinyl&display=swap');
+
+* {
   font-family: 'Poppins', sans-serif;
 }
 
-.nav-link{
-  border-bottom: 1px solid white;
-  margin-right: 3px;
-  margin-left: 3px;
-  padding-left: 40px !important;
-  padding-right: 40px !important;
-  padding-bottom: 2px !important;
-  transition: 0.8s;
+body {
+  padding-top: 60px;
+  /* Adjust this value based on the height of your navbar */
 }
 
-.nav-link:hover{
-  border-bottom: 1px solid white;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-  padding-bottom: 2px !important;
+.navbar .container .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  margin-right: 40px;
+  font-size: 23px;
+  font-weight: 300;
+  color: #333;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
 }
 
-.nav-link:active{
-  border-bottom: 1px solid white;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-  padding-bottom: 2px !important;
+.collapse .navbar-nav .nav-item a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.5s;
 }
+
+.collapse .navbar-nav .nav-item a:hover {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: 0.5s;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: #fff;
+  /* Set a background color for the dropdown */
+}
+
+.nav-item.dropdown .dropdown-item {
+  color: white;
+  /* Set the font color of the dropdown items to white */
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+  background-color: #F3DFC9;
+  /* Add a hover effect with a different background color */
+}
+
+.navbar {
+  border-bottom: 3px solid #DCEE8A;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Ensure the navbar is above other content */
+  background-color:#F3DFC9;
+}
+
+.navbar .container img {
+  border: 1px solid #DCEE8A;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.main-body {
+  background-color: #F3DFC9;
+}
+
+.c-item {
+  height: 580px;
+  border-bottom: 3px solid #DCEE8A;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.c-item .c-caption h1 {
+  font-family: 'Rubik Vinyl', sans-serif;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+  padding-bottom: 120px;
+  text-transform: capitalize;
+}
+
+.c-item .c-caption p {
+  padding-bottom: 20px;
+}
+
+.card-body{
+  background-image: url('../images/bg2.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
